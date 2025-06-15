@@ -1,53 +1,54 @@
-html, body {
-    height: 100%;
-    background-color: #3c415e;
-}
 
-#master {
-    height: 75%;
-    vertical-align: baseline;
-    padding-top: 10%;
-}
-
-#root {
-    height: 100%;
+body {
+  background-color: #2c2f4a;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
 }
 
 .heading {
-    color: white;
-    text-align: center;
-    position: relative;
-    top: -15%;
+  padding: 20px;
+  font-size: 16px;
 }
 
-.holder {
-    display: flex;
-    margin: auto;
-    width: fit-content;
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 button {
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 14px 12px;
-    cursor: pointer;
-    border-radius: 4px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .btn-blue {
-    background: rgb(34, 193, 195);
-    color: black;
+  background-color: rgb(34, 193, 195);
 }
 
 .btn-orange {
-    background: rgb(221, 112, 18);
-    color: black;
+  background-color: rgb(221, 112, 18);
 }
 
 .btn-green {
-    background: rgb(44, 209, 88);
-    color: black;
+  background-color: rgb(44, 209, 88);
+}
+
+.fix-box {
+  width: 150px;
+  height: 150px;
+  margin: 0 10px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
 }
